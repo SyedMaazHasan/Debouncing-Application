@@ -20,6 +20,7 @@ class Counter extends Component {
     return (
       <div>
         <SearchUsingDebounce></SearchUsingDebounce>
+        <H1>CLICK ON BELOW COUNTER BUTTON ND NOTICE THE API CALLS</H1>
         <span className="maaz"> {this.state.count}</span>
         <button className="btn btn-success maaz" onClick={this.increment}>
           increment
